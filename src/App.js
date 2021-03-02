@@ -3,9 +3,13 @@ import { useEffect, useState } from "react";
 import { Map } from "./components/Map";
 import { Filter } from "./components/Filter";
 import { Reduce } from "./components/Reduce";
-import { Twitch } from "./components/EsModules"
+import { Twitch } from "./components/EsModules";
+import getName, { name as myName, age as myAge } from "./components/constants-export.js";
 
 export default function App() {
+
+  console.log(myName, myAge, getName())
+
   const programers = ["Robert", "Joe", "Jane"];
   const [avatar, setAvatar] = useState("");
 

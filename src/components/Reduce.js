@@ -1,5 +1,4 @@
-export const Reduce = ({data}) => {
-  console.log(data)
+export const Reduce = ({ data }) => {
   //const programers = ["Robert", "Joe", "Jane"];
   return (
     <>
