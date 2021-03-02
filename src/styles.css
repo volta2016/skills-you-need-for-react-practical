@@ -2,3 +2,15 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+h3 {
+  color: white;
+}
+
+.twitch {
+  max-width: 100px;
+}
+
+.back-twitch {
+ background-color: #a190c4;
+ padding: 1rem 0;
+}

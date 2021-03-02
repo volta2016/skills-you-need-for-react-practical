@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Map } from "./components/Map";
 import { Filter } from "./components/Filter";
 import { Reduce } from "./components/Reduce";
-
+import { Twitch } from "./components/EsModules"
 
 export default function App() {
   const programers = ["Robert", "Joe", "Jane"];
@@ -24,6 +24,7 @@ export default function App() {
       <Filter data={programers}></Filter>
       <Reduce data={programers}></Reduce>
       <img src={avatar} alt="volta2016" />
+      <Twitch></Twitch>
     </div>
   );
 }
